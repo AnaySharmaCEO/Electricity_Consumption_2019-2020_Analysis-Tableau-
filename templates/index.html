@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Plugging into the Future</title>
+
+<style>
+
+body{
+margin:0;
+font-family:system-ui,Segoe UI,Arial;
+background:#0f172a;
+color:#f1f5f9;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 40px;
+background:#020617;
+border-bottom:1px solid #1e293b;
+}
+
+nav h2{
+margin:0;
+font-size:18px;
+color:#60a5fa;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#cbd5f5;
+font-weight:500;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+/* HERO */
+
+.hero{
+padding:70px 20px;
+text-align:center;
+max-width:900px;
+margin:auto;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+color:#cbd5f5;
+font-size:18px;
+line-height:1.6;
+}
+
+/* SECTION */
+
+.section{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section h2{
+margin-bottom:30px;
+font-size:28px;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#020617;
+border:1px solid #1e293b;
+border-radius:12px;
+padding:25px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 40px rgba(0,0,0,0.6);
+}
+
+.card h3{
+margin-top:0;
+color:#60a5fa;
+}
+
+.card p{
+color:#cbd5f5;
+}
+
+.card button{
+margin-top:10px;
+padding:10px 16px;
+border:none;
+border-radius:6px;
+background:#2563eb;
+color:white;
+cursor:pointer;
+}
+
+.card button:hover{
+background:#1d4ed8;
+}
+
+/* TEAM */
+
+.team{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.member{
+background:#020617;
+border:1px solid #1e293b;
+border-radius:10px;
+padding:20px;
+text-align:center;
+}
+
+.member h4{
+margin:10px 0 5px 0;
+}
+
+.member span{
+color:#94a3b8;
+font-size:14px;
+}
+
+/* FOOTER */
+
+footer{
+margin-top:40px;
+padding:25px;
+text-align:center;
+background:#020617;
+border-top:1px solid #1e293b;
+color:#94a3b8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<h2>Electricity Analytics</h2>
+
+<div>
+<a href="/">Home</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/story">Story</a>
+</div>
+</nav>
+
+<section class="hero">
+
+<h1>Plugging into the Future</h1>
+
+<p>
+An interactive data analytics project exploring electricity consumption
+patterns across Indian states between 2019 and 2020.
+The project analyzes regional demand variations and the impact
+of COVID-19 lockdown on energy usage using Python,
+SQLite, Tableau and Flask.
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Explore the Project</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Interactive Dashboard</h3>
+
+<p>
+Explore the interactive Tableau dashboard showing electricity
+consumption trends, state comparisons, and regional demand patterns.
+</p>
+
+<details>
+<summary>More Info</summary>
+<p>
+The dashboard combines multiple visualizations including
+trend analysis, state comparisons, regional demand,
+and lockdown impact on electricity consumption.
+</p>
+</details>
+
+<button onclick="location.href='/dashboard'">Open Dashboard</button>
+
+</div>
+
+<div class="card">
+
+<h3>Data Story</h3>
+
+<p>
+Follow a narrative walkthrough explaining the major insights
+derived from the electricity consumption dataset.
+</p>
+
+<details>
+<summary>More Info</summary>
+<p>
+The story highlights national electricity trends,
+regional differences in demand,
+and the impact of COVID-19 lockdown on energy usage.
+</p>
+</details>
+
+<button onclick="location.href='/story'">Open Story</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Project Overview</h2>
+
+<p style="max-width:800px;color:#cbd5f5;line-height:1.7">
+
+Electricity consumption is a key indicator of economic activity.
+This project analyzes electricity usage across Indian states
+using data from POSOCO weekly energy reports covering the
+period from January 2019 to December 2020.
+
+Through data analysis and visualization, the project explores
+consumption trends, regional differences, and the effects
+of the COVID-19 lockdown on electricity demand.
+
+</p>
+
+</section>
+
+<section class="section">
+
+<h2>Our Team</h2>
+
+<div class="team">
+
+<div class="member">
+<h4>Anay Sharma</h4>
+<span>Team Lead</span>
+</div>
+
+<div class="member">
+<h4>Animesh Verma</h4>
+<span>Team Member</span>
+</div>
+
+<div class="member">
+<h4>Anirudh Vashisth</h4>
+<span>Team Member</span>
+</div>
+
+<div class="member">
+<h4>Anchal Yadav</h4>
+<span>Team Member</span>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+Electricity Consumption Analysis Project • Data Analytics & Visualization
+
+</footer>
+
+</body>
+</html>
