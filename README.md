@@ -6,6 +6,52 @@ This repository implements a complete analytics workflow for exploring electrici
 
 ### Project Overview
 
+An interactive data analytics project analyzing electricity consumption patterns across Indian states from **2019–2020**, including the impact of the **COVID-19 lockdown**.
+
+---
+
+## 🔗 Live Demo
+
+Flask Web App (Render Deployment)
+
+https://electricity-consumption-analysis.onrender.com
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/AnaySharmaCEO/Electricity_Consumption_2019-2020_Analysis-Tableau-
+
+---
+
+## 👥 Team
+
+- **Anay Sharma** — Team Lead  
+- Animesh Verma  
+- Anirudh Vashisth  
+- Anchal Yadav  
+
+---
+
+## ⚙️ Tech Stack
+
+- Python
+- Flask
+- SQL
+- Tableau
+- HTML/CSS
+
+---
+
+## 📊 Features
+
+- Electricity consumption analysis (2019–2020)
+- State-wise usage comparison
+- Region-wise electricity demand
+- COVID-19 lockdown impact analysis
+- Interactive Tableau dashboard
+- Data storytelling visualization
+
 The project follows a full data pipeline:
 
 - **Data ingestion** from a consolidated POSOCO‑based CSV.
@@ -143,17 +189,6 @@ Repository root: `electricity-consumption-analysis/`
    - Visit `http://localhost:5000` in your browser.
    - Update the placeholder `TABLEAU_PUBLIC_DASHBOARD_LINK` in `app.py` and `templates/index.html` once your dashboard is published to Tableau Public.
 
----
-
-### Demo and Links
-
-- **Demo video**: see `demo/demo_video_link.md` (`DEMO_VIDEO_LINK_PLACEHOLDER`).  
-- **Tableau Public dashboard**: add URL to `tableau/tableau_links.md` and in `webapp/app.py`.
-- **GitHub repository link**: `GITHUB_REPO_URL_PLACEHOLDER`
-
-Replace the placeholders above with live URLs when publishing the project.
-
----
 
 ### Notes
 
