@@ -1,4 +1,4 @@
-## Plugging into the Future: An Exploration of Electricity Consumption Patterns
+# Plugging into the Future: An Exploration of Electricity Consumption Patterns
 
 This repository implements a complete analytics workflow for exploring electricity consumption across Indian states between **January 2019 and December 2020**, using data derived from POSOCO weekly energy reports.
 
